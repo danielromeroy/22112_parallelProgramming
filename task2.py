@@ -47,7 +47,7 @@ indices = [(header_starts[i], header_ends[i], seq_starts[i], seq_ends[i]) for i 
 # PARALLELISING #
 
 N_SEQUENCES = 24
-OUT_DIR = "/mnt/c/Users/dani_/Downloads/HPCweek4_out/revcomp_splits"
+OUT_DIR = "/path/to/revcomp_splits"  # Splits will be here
 
 
 # Worker function to call with joblib.Parallel(). Almost identical to the worker program.
